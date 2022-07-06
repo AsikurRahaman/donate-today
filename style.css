@@ -74,6 +74,8 @@ body {
     background-color: #FFF4D6;
 }
 
+/* people_story section style */
+
 .peoples_story1 {
     display: flex;
     margin-top: 5%;
@@ -83,9 +85,12 @@ body {
     width: 50%;
 }
 
-.leftContent {
+.left_padding {
     padding-left: 10%;
     padding-right: 2%;
+}
+
+.leftContent {
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -95,7 +100,23 @@ body {
 }
 
 .image_style {
-    width: 50%;
+    width: 60%;
     height: 100%;
 
+}
+
+/* people_story2 section style  */
+
+.peoples_story2 {
+    display: flex;
+    margin-top: 4%;
+}
+
+.rightContent {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.rightContent p {
+    width: 60%;
 }
