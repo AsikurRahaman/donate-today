@@ -158,12 +158,31 @@ input[type=number] {
 }
 
 /* donate plan section style  */
-#donate_plan {}
+#donate_plan {
+    margin-top: 7em;
+}
 
 .donatePlanHeading {
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin: auto;
+    margin-bottom: 3em;
+}
+
+.donatePlanHeading h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #121212;
+}
+
+.donatePlanHeading p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
 }
 
 .plan_cards_container {
@@ -176,6 +195,23 @@ input[type=number] {
 .plan_card {
     width: 31%;
     margin-right: 3%;
+    padding: 5em 5em 5em 2em;
+}
+
+.plan_card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    text-align: left;
+}
+
+.plan_card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    text-align: left;
 }
 
 .color1 {
