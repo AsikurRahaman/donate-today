@@ -239,6 +239,7 @@ input[type=number] {
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
+    color: #121212;
 }
 
 .peoples_story_p {
@@ -250,7 +251,7 @@ input[type=number] {
 }
 
 .width_left {
-    width: 40%;
+    width: 50%;
 }
 
 .leftContent {
@@ -297,7 +298,7 @@ input[type=number] {
 }
 
 .width_right {
-    width: 60%;
+    width: 50%;
     padding-bottom: 2%;
 }
 
@@ -322,7 +323,53 @@ input[type=number] {
 
 #getUpdateHeading {
     text-align: center;
-    width: 30%;
+    width: 35%;
+}
+
+#getUpdateHeading p {
+    text-align: center;
+}
+
+#email_input {
+
+    border: none;
+    padding: 0.5em 0 0.5em 0.6em;
+    width: 16em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #AA9F9F;
+    outline: none;
+    background-color: #D9D9D9;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    margin-right: 0;
+}
+
+/* placeholder styles */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #B3B3B3;
+    font-size: 18px;
+    opacity: 1;
+    /* Firefox */
+}
+
+#subs_btn {
+    padding: 0.9em 3em 0.7em 3em;
+    border: none;
+    cursor: pointer;
+    background-color: #FF5959;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+    right: 5px;
 }
 
 .subscribe {
