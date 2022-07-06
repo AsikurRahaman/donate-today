@@ -41,3 +41,35 @@ body {
 .btn {
     margin-right: 2%;
 }
+
+#donate_plan {}
+
+.donatePlanHeading {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.plan_cards_container {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.plan_card {
+    width: 31%;
+    margin-right: 3%;
+}
+
+.color1 {
+    background-color: #4F9DA610;
+}
+
+.color2 {
+    background-color: #FF595910;
+}
+
+.color3 {
+    background-color: #FFF4D6;
+}
