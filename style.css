@@ -275,27 +275,42 @@ input[type=number] {
     padding-left: 10%;
 }
 
-.image_style {
+.right_image_style {
     width: 80%;
     height: 100%;
-
+    border-radius: 5px;
 }
 
 /* people_story2 section style  */
 
 .peoples_story2 {
     display: flex;
-    margin-top: 4%;
+    width: 80%;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+.left_image_style {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.width_right {
+    width: 60%;
+    padding-bottom: 2%;
 }
 
 .rightContent {
     padding-top: 4%;
     padding-bottom: 4%;
+    padding-right: 35%;
+    padding-left: 14%;
 }
 
-.rightContent p {
+/* .rightContent p {
     width: 60%;
-}
+} */
 
 /* get update section style */
 
