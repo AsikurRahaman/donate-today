@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/* banner section style   */
 #banner {
     background: url("images/donation9.jpg") no-repeat;
     background-size: cover;
@@ -23,6 +24,8 @@ body {
 /* .banner_content h1 {
     margin: 0;
 } */
+
+/* donate today section style  */
 #donate_today {
     display: flex;
     align-items: center;
@@ -43,6 +46,8 @@ body {
 }
 
 #donate_plan {}
+
+/* donate plan section style  */
 
 .donatePlanHeading {
     text-align: center;
@@ -74,7 +79,7 @@ body {
     background-color: #FFF4D6;
 }
 
-/* people_story section style */
+/* people_story1 section style */
 
 .peoples_story1 {
     display: flex;
@@ -119,4 +124,30 @@ body {
 
 .rightContent p {
     width: 60%;
+}
+
+/* get update section style */
+
+#get_update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#getUpdateHeading {
+    text-align: center;
+    width: 30%;
+}
+
+.subscribe {
+    width: 45%;
+    text-align: center;
+}
+
+.form {
+
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #FFF4D6;
+
 }
