@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+}
+
+#banner {
+    background: url("images/donation9.jpg") no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    color: white;
+    width: 30%;
+    /* flex-direction: column; */
+
+
+}
+
+/* .banner_content h1 {
+    margin: 0;
+} */
