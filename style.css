@@ -23,3 +23,21 @@ body {
 /* .banner_content h1 {
     margin: 0;
 } */
+#donate_today {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donateTodayHeading {
+    text-align: center;
+    width: 30%;
+}
+
+.choose_amount {
+    display: flex;
+}
+
+.btn {
+    margin-right: 2%;
+}
