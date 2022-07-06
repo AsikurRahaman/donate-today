@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+section {
+    margin-bottom: 4.5em;
+}
+
 /* banner section style   */
 #banner {
     background: url("images/donation9.jpg") no-repeat;
@@ -45,6 +49,8 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.8em;
 }
 
 /* .banner_content h1 {
@@ -60,20 +66,99 @@ body {
 
 .donateTodayHeading {
     text-align: center;
-    width: 30%;
+    width: 40%;
+}
+
+.donateTodayHeading h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donateTodayHeading p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
 }
 
 .choose_amount {
     display: flex;
+    position: relative;
+    right: 8em;
+    margin-top: 2em;
 }
 
-.btn {
+.btn_tk {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
     margin-right: 2%;
+    padding: 10% 5%;
+    color: #707070;
+    border: none;
+    cursor: pointer;
+    background-color: #FAFAFA;
 }
 
-#donate_plan {}
+.active,
+.btn_tk:hover {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.donate_now {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.donate_now input {
+    border: none;
+    padding: 0.5em 0 0 0;
+    width: 16em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+    outline: none;
+    text-align: center;
+}
+
+/* placeholder styles */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #B3B3B3;
+    font-size: 18px;
+    opacity: 1;
+    /* Firefox */
+}
+
+/* for hiding the input arrow;*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.donate_now hr {
+    width: 100%;
+    border: 1px solid #DADADA;
+}
 
 /* donate plan section style  */
+#donate_plan {}
 
 .donatePlanHeading {
     text-align: center;
